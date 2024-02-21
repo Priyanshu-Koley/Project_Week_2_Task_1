@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "API.Controllers.EmailController",
+    "Method": "RegistrationSucessfull",
+    "RelativePath": "api/Email/RegistrationSucessfull",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "emailData",
+        "Type": "API.Controllers.EmailModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
