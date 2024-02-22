@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\Project week 2\\Git_repo_Main\\Project_week_2_task_1\\Backend\\EmailServiceSolution\\",
+  "WorkspaceRootPath": "E:\\Project2\\Project_week_2_task_1\\EmailServiceSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{33F42283-3ECC-41D6-8861-3FD1CF85E9D8}|WebApplication1\\WebApplication1.csproj|c:\\users\\admin\\desktop\\project week 2\\git_repo_main\\project_week_2_task_1\\backend\\emailservicesolution\\webapplication1\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{33F42283-3ECC-41D6-8861-3FD1CF85E9D8}|WebApplication1\\WebApplication1.csproj|e:\\project2\\project_week_2_task_1\\emailservicesolution\\webapplication1\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33F42283-3ECC-41D6-8861-3FD1CF85E9D8}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33F42283-3ECC-41D6-8861-3FD1CF85E9D8}|WebApplication1\\WebApplication1.csproj|e:\\project2\\project_week_2_task_1\\emailservicesolution\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33F42283-3ECC-41D6-8861-3FD1CF85E9D8}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Project2\\Project_week_2_task_1\\EmailServiceSolution\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "E:\\Project2\\Project_week_2_task_1\\EmailServiceSolution\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA4AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T08:13:22.842Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "EmailController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Project week 2\\Git_repo_Main\\Project_week_2_task_1\\Backend\\EmailServiceSolution\\WebApplication1\\Controllers\\EmailController.cs",
+              "DocumentMoniker": "E:\\Project2\\Project_week_2_task_1\\EmailServiceSolution\\WebApplication1\\Controllers\\EmailController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\EmailController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Project week 2\\Git_repo_Main\\Project_week_2_task_1\\Backend\\EmailServiceSolution\\WebApplication1\\Controllers\\EmailController.cs",
+              "ToolTip": "E:\\Project2\\Project_week_2_task_1\\EmailServiceSolution\\WebApplication1\\Controllers\\EmailController.cs",
               "RelativeToolTip": "WebApplication1\\Controllers\\EmailController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAA/AAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAiwC8AAACHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-21T09:35:54.221Z",
               "EditorCaption": ""

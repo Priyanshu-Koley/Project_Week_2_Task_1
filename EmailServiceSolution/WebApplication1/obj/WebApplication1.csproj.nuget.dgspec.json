@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\Project week 2\\Git_repo_Main\\Project_week_2_task_1\\Backend\\EmailServiceSolution\\WebApplication1\\WebApplication1.csproj": {}
+    "E:\\Project2\\Project_week_2_task_1\\EmailServiceSolution\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\Project week 2\\Git_repo_Main\\Project_week_2_task_1\\Backend\\EmailServiceSolution\\WebApplication1\\WebApplication1.csproj": {
+    "E:\\Project2\\Project_week_2_task_1\\EmailServiceSolution\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Project week 2\\Git_repo_Main\\Project_week_2_task_1\\Backend\\EmailServiceSolution\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "E:\\Project2\\Project_week_2_task_1\\EmailServiceSolution\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\Project week 2\\Git_repo_Main\\Project_week_2_task_1\\Backend\\EmailServiceSolution\\WebApplication1\\WebApplication1.csproj",
+        "projectPath": "E:\\Project2\\Project_week_2_task_1\\EmailServiceSolution\\WebApplication1\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\Project week 2\\Git_repo_Main\\Project_week_2_task_1\\Backend\\EmailServiceSolution\\WebApplication1\\obj\\",
+        "outputPath": "E:\\Project2\\Project_week_2_task_1\\EmailServiceSolution\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"

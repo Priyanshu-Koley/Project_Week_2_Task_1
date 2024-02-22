@@ -1,15 +1,31 @@
 [
   {
     "ContainingType": "API.Controllers.EmailController",
-    "Method": "RegistrationSucessfull",
-    "RelativePath": "api/Email/RegistrationSucessfull",
+    "Method": "PasswordReset",
+    "RelativePath": "api/Email/PasswordReset",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "emailData",
-        "Type": "API.Controllers.EmailModel",
+        "Type": "API.Controllers.PasswordResetEmailModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.EmailController",
+    "Method": "RegistrationSuccessful",
+    "RelativePath": "api/Email/RegistrationSuccessful",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "emailData",
+        "Type": "API.Controllers.RegistrationSuccessfulEmailModel",
         "IsRequired": true
       }
     ],

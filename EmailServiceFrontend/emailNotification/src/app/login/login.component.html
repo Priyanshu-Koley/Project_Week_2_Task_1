@@ -1,0 +1,11 @@
+<div class="container">
+    <form (submit)="login()" class="form">
+        <div>
+            <input type="email" id="email" class="input" placeholder="Email" required (change)="emailChangeHandler($event)">
+        </div>
+        <div>
+            <input type="password" id="password" class="input" placeholder="Password" required (change)="passwordChangeHandler($event)">
+        </div>
+        <button type="submit" class="login-btn">Login</button>
+    </form>
+</div>
