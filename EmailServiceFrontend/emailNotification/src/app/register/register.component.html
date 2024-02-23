@@ -1,5 +1,6 @@
 <div class="container">
     <form (submit)="register($event)" class="form">
+        <h1 class="heading">Register</h1>
         <div>
             <input type="text" id="name" class="input" placeholder="Name" required (change)="nameChangeHandler($event)">
         </div>
@@ -12,6 +13,16 @@
         <div>
             <input type="password" id="confirmPassword" class="input" placeholder="Confirm Password" required (change)="confirmPasswordChangeHandler($event)">
         </div>
-        <button type="submit" class="register-btn">Register</button>
+        @if(emailSending===true)
+        {
+            <button disabled class="sending-btn">Registering and Sending Email...</button>
+        }
+        @else{
+            <button type="submit" class="register-btn">Register</button>
+            
+            <div class="footer">
+                Already have an account? <a routerLink="../login">Login</a>
+            </div>
+        }
     </form>
 </div>

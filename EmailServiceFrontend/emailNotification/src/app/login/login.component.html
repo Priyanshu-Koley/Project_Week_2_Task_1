@@ -1,5 +1,6 @@
 <div class="container">
-    <form (submit)="login()" class="form">
+    <form (submit)="login($event)" class="form">
+        <h1 class="heading">Login</h1>
         <div>
             <input type="email" id="email" class="input" placeholder="Email" required (change)="emailChangeHandler($event)">
         </div>
@@ -7,5 +8,13 @@
             <input type="password" id="password" class="input" placeholder="Password" required (change)="passwordChangeHandler($event)">
         </div>
         <button type="submit" class="login-btn">Login</button>
+
+        <div class="footer">
+            <a routerLink="../forgot-password">Forgot Password</a> 
+        </div>
+        <div class="footer footer2">
+            Don't have an account?
+            <a routerLink="../register">Create one</a>
+        </div>
     </form>
 </div>
